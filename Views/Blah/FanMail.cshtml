@@ -5,15 +5,18 @@
     ViewData["Title"] = "Send Fan Mail";
 }
 
+@model FanMailModel;
+
 <!--simple form demonstration-->
 <h1>Send Ganderson Fan Mail</h1>
-<form>
+<form method="post">
     <label>From:</label>
-    <input id="txtFrom" /><br />
+    <input id="txtFrom" asp-for="From" /><br />
     <label>Subject:</label>
-    <input id="txtSubject" /><br />
+    <input id="txtSubject" asp-for="Subject" /><br />
     <label>Message:</label>
-    <textarea id="txtMessage" rows="4"></textarea><br />
-    <input id="btnSend" type="button" value="Send Message" />
+    <textarea id="txtMessage" asp-for="Message" rows="4"></textarea><br />
+    <input id="btnSend" type="submit" value="Send Message" />
 </form>
+
 <script src="js/FanMail.js"></script>

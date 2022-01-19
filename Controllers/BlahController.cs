@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MyFirstASP.netWebApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,7 +14,14 @@ namespace MyFirstASP.netWebApp.Controllers
             return View();
         }
 
+        [HttpGet]
         public IActionResult FanMail()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult FanMail(FanMailModel model) // called method overloading
         {
             return View();
         }
