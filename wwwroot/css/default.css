@@ -1,10 +1,11 @@
 ﻿body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 50px;
 }
 
 label {
     font-size: 20px;
-    color:darkblue;
+    color:darkred;
     width: 150px;
     display: inline-block;
 }
@@ -15,4 +16,8 @@ textarea {
 
 li {
     list-style-type: none;
+}
+
+p{
+    padding: 100px;
 }

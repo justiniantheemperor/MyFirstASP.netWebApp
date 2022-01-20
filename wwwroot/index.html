@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-<label>" />
+    <title>Grading Calculator</title>
+    <link href="css/default.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+</head>
+<body>
+    <div>
+        <h1>Justin Ellis</h1>
+
+        <p>My name is Justin Ellis. In this picture, my wife, Devoree, and I are hiking up the Teton Mountains. </p>
+        <br />
+        <img src="img/hiking.jpg" height="600" />
+        <br />
+        <p>I also enjoy making websites and creating video games. Here is a picture of a map I have been working on for one of my games:</p>
+        <br />
+        <img src="img/regionmap.png" />
+        <br />
+        <p>I am really looking forward to this class because I know learning more about C# will help me with both my career as a developer and with my game development hobby.</p>
+
+        <p>Here are my top 3 jobs that I want to pursue:</p>
+        <ol>
+            <li>Web Developer</li>
+            <li>Software Developer</li>
+            <li>Data Analyst</li>
+        </ol>
+        <br />
+        <br />
+        <h1>Grade Calculator</h1>
+        <form>
+            <label>Assignments</label>
+            <input id="Assignments" type="number" min="0" max="100" /><br />
+            <label>Group Project</label>
+            <input id="Project" type="number" min="0" max="100" /><br />
+            <label>Quizzes</label>
+            <input id="Quizzes" type="number" min="0" max="100" /><br />
+            <label>Exams </label>
+            <input id="Exams" type="number" min="0" max="100" /><br />
+            <label>INTEX</label>
+            <input id="Intex" type="number" min="0" max="100" /><br />
+            <input type="button" id="btnCalc" value="Calculate Final Score" />
+        </form>
+        <p id="finalgrade"></p>
+        <br />
+        <br />
+        <br />
+    </div>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="lib/jquery/jquery-3.6.0.min.js"></script>
+    <script src="js/GradeCalculator.js"></script>
+
+
+</body>
+</html>
