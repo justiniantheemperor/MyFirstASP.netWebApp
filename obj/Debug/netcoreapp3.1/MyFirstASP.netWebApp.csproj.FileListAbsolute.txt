@@ -20,5 +20,4 @@ C:\Users\justi\OneDrive\College\JuniorCore_Winter\ASP.net\Projects\MyFirstASP.ne
 C:\Users\justi\OneDrive\College\JuniorCore_Winter\ASP.net\Projects\MyFirstASP.netWebApp\obj\Debug\netcoreapp3.1\MyFirstASP.netWebApp.pdb
 C:\Users\justi\OneDrive\College\JuniorCore_Winter\ASP.net\Projects\MyFirstASP.netWebApp\obj\Debug\netcoreapp3.1\MyFirstASP.netWebApp.genruntimeconfig.cache
 C:\Users\justi\OneDrive\College\JuniorCore_Winter\ASP.net\Projects\MyFirstASP.netWebApp\bin\Debug\netcoreapp3.1\MyFirstASP.netWebApp.Views.dll
-C:\Users\justi\OneDrive\College\JuniorCore_Winter\ASP.net\Projects\MyFirstASP.netWebApp\bin\Debug\netcoreapp3.1\MyFirstASP.netWebApp.Views.pdb
 C:\Users\justi\OneDrive\College\JuniorCore_Winter\ASP.net\Projects\MyFirstASP.netWebApp\obj\Debug\netcoreapp3.1\MyFirstASP.netWebApp.csproj.CopyComplete
